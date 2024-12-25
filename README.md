@@ -1,5 +1,6 @@
 ﻿# Plugin Manager
-[![Download](https://img.shields.io/badge/Скачать-EXE-ff69b4)](https://github.com/serg2bil/RebuildPlugins/releases/download/v1.0.0/Rebuild.Plugins.exe)
+[![Download](https://img.shields.io/badge/Download-EXE-#00c703)](https://github.com/serg2bil/RebuildPlugins/releases/download/Unreal/Rebuild.Plugins.exe)
+
 ![Logo](public/icon.png)
 
 ## Description
