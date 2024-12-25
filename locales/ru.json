@@ -5,17 +5,16 @@
     "select_zip": "Выбрать ZIP-файлы",
     "select_zip_title": "Выберите ZIP-файлы с плагинами",
     "select_engine_version": "Выберите версию движка:",
-    "rebuild_plugins": "Пересобрать плагины",
+    "rebuild_plugins": "Пересобрать плагинов",
     "open_build_folder": "Открыть папку сборки",
     "delete": "Удалить",
     "confirmation_delete": "Вы действительно хотите удалить плагин '{}'?",
-    
     "loading": "Загрузка...",
     "unknown_plugin": "Неизвестный плагин",
     "n_a": "Н/Д",
     "version": "Версия",
     "engine": "Движок",
-    
+    "rebuilt_plugins_folder_not_exists": "Папка с пересобранными плагинами не существует.",
     "no_plugins_found": "Не найдено ни одного плагина.",
     "icon_not_found": "Иконка не найдена в папке 'public'.",
     "error_setting_icon": "Ошибка установки иконки: {}",
@@ -76,19 +75,20 @@
     "directory_not_exists": "Директория не существует: {}",
     "epic_games_not_found": "Epic Games не найден.",
     "failed_to_find_epic_games_path": "Не удалось найти путь к Epic Games.",
-    
-
     "error_loading_gif": "Ошибка при загрузке GIF: {}",
     "error_animating_gif": "Ошибка при анимации GIF: {}",
     "archive_already_exists": "Архив уже существует: {}",
     "no_logs_to_archive": "Нет логов для архивирования.",
-
     "no_plugins_to_build": "Нет плагинов для сборки.",
     "selected_zip_files": "Выбраны ZIP-файлы: {}",
     "total_plugins_in_zip": "Общее количество плагинов в ZIP: {}",
-
     "select_folder": "Выберите папку с плагинами",
     "no_frame_reference_plugin_delete": "Нет ссылки на фрейм плагина '{}' при удалении.",
     "archive_already_exists_on_close": "Архив уже существует при закрытии: {}",
-    "error_on_closing": "Ошибка при закрытии приложения: {}"
+    "error_on_closing": "Ошибка при закрытии приложения: {}",
+    "zip_files": "ZIP-файлы",
+    "builder_path_not_set": "Путь билдеров не установлен.",
+    "error_deleting_rebuilt_plugins_folder": "Ошибка при удалении папки RebuiltPlugins: {}",
+    "deleted_rebuilt_plugins_folder": "Папка RebuiltPlugins удалена: {}",
+    "reading_plugin_data": "Чтение данных плагина из: {}"
 }
