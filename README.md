@@ -40,7 +40,7 @@
 
   ```bash
   pyinstaller --onefile --windowed --icon=public/icon.ico --add-data "locales/*.json;locales" --add-data "public/*.png;public" --add-data "public/*.gif;public" main.py
-
+```
 ## Installation
 
 1. **Clone the Repository:**
@@ -48,3 +48,4 @@
    ```bash
    git clone https://github.com/your-repository/plugin-manager.git
    cd plugin-manager
+   ```
