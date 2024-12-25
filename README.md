@@ -1,5 +1,5 @@
 ﻿# Plugin Manager
-[![Download](https://img.shields.io/badge/download%2Fmonth-brightgreen)](https://github.com/serg2bil/RebuildPlugins/releases/download/Unreal/Rebuild.Plugins.exe)
+[![Download](https://img.shields.io/badge/Download-brightgreen)](https://github.com/serg2bil/RebuildPlugins/releases/download/Unreal/Rebuild.Plugins.exe)
 
 ![Logo](public/icon.png)
 
