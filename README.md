@@ -35,7 +35,12 @@
 - **Python:** 3.7 or higher
 - **Required Libraries:**
   - `tkinter` (usually included in the Python standard library)
-  
+
+## To Building
+
+  ```bash
+  pyinstaller --onefile --windowed --icon=public/icon.ico --add-data "locales/*.json;locales" --add-data "public/*.png;public" --add-data "public/*.gif;public" main.py
+
 ## Installation
 
 1. **Clone the Repository:**
