@@ -82,8 +82,13 @@
     "error_animating_gif": "Ошибка при анимации GIF: {}",
     "archive_already_exists": "Архив уже существует: {}",
     "no_logs_to_archive": "Нет логов для архивирования.",
-    
+
     "no_plugins_to_build": "Нет плагинов для сборки.",
     "selected_zip_files": "Выбраны ZIP-файлы: {}",
-    "total_plugins_in_zip": "Общее количество плагинов в ZIP: {}"
+    "total_plugins_in_zip": "Общее количество плагинов в ZIP: {}",
+
+    "select_folder": "Выберите папку с плагинами",
+    "no_frame_reference_plugin_delete": "Нет ссылки на фрейм плагина '{}' при удалении.",
+    "archive_already_exists_on_close": "Архив уже существует при закрытии: {}",
+    "error_on_closing": "Ошибка при закрытии приложения: {}"
 }

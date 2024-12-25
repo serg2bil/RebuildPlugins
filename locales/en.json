@@ -9,13 +9,11 @@
     "open_build_folder": "Open build folder",
     "delete": "Delete",
     "confirmation_delete": "Are you sure you want to remove the '{}' plugin?",
-    
     "loading": "Loading...",
     "unknown_plugin": "Unknown plugin",
     "n_a": "N/A",
     "version": "Version",
     "engine": "Engine",
-
     "no_plugins_found": "No plugins found.",
     "icon_not_found": "The icon was not found in the 'public' folder.",
     "error_setting_icon": "Error installing icon: {}",
@@ -76,13 +74,15 @@
     "directory_not_exists": "Directory does not exist: {}",
     "epic_games_not_found": "Epic Games not found.",
     "failed_to_find_epic_games_path": "Could not find the path to Epic Games.",
-
-    "error_loading_gif": "Error when loading GIFs: {}",
-    "error_animating_gif": "GIF animation error: {}",
-    "archive_already_exists": "The archive already exists: {}",
-    "no_logs_to_archive": "No logs for archiving.",
-
+    "error_loading_gif": "Error loading GIF: {}",
+    "error_animating_gif": "Error while animating GIF: {}",
+    "archive_already_exists": "Archive already exists: {}",
+    "no_logs_to_archive": "There are no logs to archive.",
     "no_plugins_to_build": "No plugins to build.",
     "selected_zip_files": "Selected ZIP files: {}",
-    "total_plugins_in_zip": "Total number of plugins in ZIP: {}"
+    "total_plugins_in_zip": "Total number of plugins in ZIP: {}",
+    "select_folder": "Select the plugins folder",
+    "no_frame_reference_plugin_delete": "No reference to plugin frame '{}' when deleted.",
+    "archive_already_exists_on_close": "The archive already exists when closing: {}",
+    "error_on_closing": "Error when closing application: {}"
   }
