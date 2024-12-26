@@ -626,36 +626,70 @@ def cleanup_buffer():
 
 def archive_all_logs():
     """
-    Archives all log files from LOGS_FOLDER into a single ZIP archive with the current date
-    and saves it in ARCHIVES_FOLDER.
+    Archives all log files from LOGS_FOLDER into a single ZIP archive with the current date and time
+    and saves it in ARCHIVES_FOLDER. Keeps archives for the last 14 days.
     """
     try:
-        # Format the current date
-        current_date = datetime.datetime.now().strftime("%Y-%m-%d")
-        archive_name = os.path.join(ARCHIVES_FOLDER, f"logs_{current_date}.zip")
+       
+        current_datetime = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        archive_name = os.path.join(ARCHIVES_FOLDER, f"logs_{current_datetime}.zip")
         
-        # Check if an archive with the current date already exists
-        if os.path.exists(archive_name):
-            log_message("archive_already_exists", "system", "info", archive_name)
-            return
+        log_message("archiving_logs_start", "system", "info", archive_name)
         
         log_files = glob.glob(os.path.join(LOGS_FOLDER, "*.log"))
         if not log_files:
             log_message("no_logs_to_archive", "system", "info")
             return
         
+        
         with zipfile.ZipFile(archive_name, 'w', zipfile.ZIP_DEFLATED) as zipf:
             for log_file in log_files:
                 zipf.write(log_file, arcname=os.path.basename(log_file))
         
-        # Optionally clear log files after archiving
+        log_message("logs_archived", "system", "successes", archive_name)
+        
+        
         for log_file in log_files:
             with open(log_file, 'w', encoding='utf-8'):
-                pass  # Open the file for writing, which clears its contents
+                pass  
         
-        log_message("logs_archived", "system", "successes", archive_name)
+        
+        cleanup_old_archives()
+        
     except Exception as e:
         log_message("error_archiving_logs", "system", "error", e)
+
+def cleanup_old_archives(retention_days=14): # Number of days
+    """
+    Deletes log archives older than the specified number of days.
+
+    :param retention_days: Number of days to retain archives.
+    """
+    try:
+        now = datetime.datetime.now()
+        cutoff_date = now - datetime.timedelta(days=retention_days)
+        
+        # Получение списка всех архивов в папке ARCHIVES_FOLDER
+        archive_pattern = os.path.join(ARCHIVES_FOLDER, "logs_*.zip")
+        archives = glob.glob(archive_pattern)
+        
+        for archive in archives:
+            # Извлечение даты и времени из имени файла
+            basename = os.path.basename(archive)
+            try:
+                date_str = basename.replace("logs_", "").replace(".zip", "")
+                archive_datetime = datetime.datetime.strptime(date_str, "%Y-%m-%d_%H-%M-%S")
+                
+                if archive_datetime < cutoff_date:
+                    os.remove(archive)
+                    log_message("deleted_old_archive", "system", "info", archive)
+            except ValueError:
+                # Если формат имени файла не соответствует ожидаемому, пропускаем его
+                log_message("invalid_archive_name_format", "system", "warning", basename)
+                
+    except Exception as e:
+        log_message("error_cleanup_old_archives", "system", "error", e)
+
 
 def log_separator():
     """
