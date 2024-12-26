@@ -765,7 +765,7 @@ def build_plugins(data, callback=None):
     if data:
         plugin_data = data.get('plugin_data', [])
         builder_path = data.get('builder_path')
-        output_base = REBUILT_PLUGINS_FOLDER  # Use the global variable
+        output_base = REBUILT_PLUGINS_FOLDER  # Используем глобальную переменную
 
         run_uat = Path(builder_path) / "RunUAT.bat"
         if not run_uat.exists():
@@ -778,7 +778,7 @@ def build_plugins(data, callback=None):
         for plugin in plugin_data:
             name = plugin.get('name')
             path = plugin.get('path')
-            plugin_ref = plugin.get('plugin_ref')  # Get reference to the plugin entry
+            plugin_ref = plugin.get('plugin_ref')  # Ссылка на запись плагина
 
             if not name or not path:
                 if callback:
@@ -803,15 +803,16 @@ def build_plugins(data, callback=None):
                 callback("executing_command", "builder", "info", command)
 
             try:
-                process = subprocess.Popen(
+                result = subprocess.run(
                     command,
                     shell=True,
                     stdout=subprocess.PIPE,
                     stderr=subprocess.PIPE,
-                    text=True
+                    text=True,
+                    check=True  # Вызывает CalledProcessError при ненулевом коде возврата
                 )
 
-                for line in process.stdout:
+                for line in result.stdout.splitlines():
                     line = line.strip()
                     if re.match(r"^\[\d+/\d+\] (.*)$", line):
                         if callback:
@@ -820,46 +821,56 @@ def build_plugins(data, callback=None):
                         if callback:
                             callback("builder_output", "user", "builder_info", line)
 
-                for line in process.stderr:
+                for line in result.stderr.splitlines():
                     if callback:
                         callback("builder_error_output", "builder", "error", line.strip())
 
-                process.wait()
-
-                if process.returncode == 0:
-                    if callback:
-                        callback("plugin_build_success", "user", "successes", name)
-                        callback("plugin_build_success_builder", "builder", "info", name)
-                    
-                    # Change plugin block color to green
-                    update_plugin_color(plugin_ref, "green")
-                else:
-                    if callback:
-                        callback("plugin_build_error", "builder", "error", name)
-                    
-                    # Change plugin block color to red
-                    update_plugin_color(plugin_ref, "red")
+                # Если subprocess.run не вызвал исключение, сборка успешна
+                if callback:
+                    callback("plugin_build_success", "user", "successes", name)
+                    callback("plugin_build_success_builder", "builder", "info", name)
+                
+                # Изменяем цвет блока плагина на зелёный
+                update_plugin_color(plugin_ref, "green")
 
             except subprocess.CalledProcessError as e:
+                # Захватываем stdout и stderr из исключения
+                if e.stdout:
+                    for line in e.stdout.splitlines():
+                        if callback:
+                            callback("builder_output", "user", "builder_info", line.strip())
+                if e.stderr:
+                    for line in e.stderr.splitlines():
+                        if callback:
+                            callback("builder_error_output", "builder", "error", line.strip())
+                
+                if callback:
+                    callback("plugin_build_error", "builder", "error", name)
+                
+                # Изменяем цвет блока плагина на красный
+                update_plugin_color(plugin_ref, "red")
+
+            except Exception as e:
                 if callback:
                     callback("plugin_build_exception", "builder", "error", name, e)
                 
-                # Change plugin block color to red
+                # Изменяем цвет блока плагина на красный
                 update_plugin_color(plugin_ref, "red")
 
-            # Increment the completed plugins counter after each build
+            # Увеличиваем счетчик завершённых плагинов
             completed_plugins_count += 1
             log_message("plugins_built_progress", "user", "info", completed_plugins_count, total_plugins_count)
 
-            # Check if all plugins have been built
+            # Проверяем, завершена ли сборка всех плагинов
             if completed_plugins_count == total_plugins_count:
-                # Re-enable the rebuild button when all plugins are built
+                # Разблокируем кнопку сборки
                 build_in_progress = False
                 rebuild_button.config(state=tk.NORMAL)
                 log_message("all_plugins_built", "system", "successes")
                 
-                # Show the button to open the build folder
+                # Отображаем кнопку для открытия папки сборки
                 root.after(0, open_folder_button.pack)
+
 
 # Create the GUI
 main_frame = tk.Frame(root, bg="#f0f0f0")

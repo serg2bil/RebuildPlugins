@@ -54,7 +54,7 @@
   "building_plugin": "Building the plugin: {}",
   "executing_command": "Execute the command: {}",
   "builder_output": "{}",
-  "builder_error_output": "{}",
+  "builder_error_output": "Builder Error: {}",
   "plugin_build_success": "The {} plugin was built successfully.",
   "plugin_build_success_builder": "The {} plugin was built successfully.",
   "plugin_build_error": "Error while building plugin {}.",

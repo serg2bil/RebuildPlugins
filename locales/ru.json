@@ -68,7 +68,7 @@
     "thread_terminating": "Завершение потока: {}",
     "error_run_uat_not_found": "RunUAT.bat не найден по пути: {}",
     "plugin_output": "{}",
-    "plugin_error_output": "{}",
+    "plugin_error_output": "Ошибка строителя: {}",
     "plugin_build_exception_placeholder": "Ошибка при сборке плагина {}:\nВывод команды:\n{}\nОшибки команды:\n{}",
     "error_language_file_not_found": "Файл перевода для языка '{}' не найден.",
     "error_invalid_json_language_file": "Файл перевода для языка '{}' содержит неверный JSON.",
