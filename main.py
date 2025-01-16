@@ -133,7 +133,7 @@ pending_plugins_count = 0  # Counter for pending plugins
 
 # Define search directories based on OS
 os_search_dirs = {
-    'nt': [r"C:\Program Files", r"C:\Program Files (x86)", r"D:\\", r"E:\\"],
+    'nt': [r"C:\Program Files", r"C:\Program Files (x86)", r"D:\\", r"E:\\", r"D:\\Programs"],
     'posix': [os.path.expanduser("~"), "/Applications", "/usr/local"]
 }
 

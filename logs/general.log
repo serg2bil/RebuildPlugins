@@ -1,0 +1,3 @@
+2025-01-16 22:52:54,942 - INFO - system - Logs successfully archived in logs\archives\logs_2025-01-16.zip
+2025-01-16 22:52:54,943 - DEBUG - system - The buffer folder was successfully deleted.
+2025-01-16 22:52:54,943 - DEBUG - user - The program is closing...
