@@ -1,3 +1,148 @@
+<<<<<<< HEAD
 2025-01-16 22:52:54,942 - INFO - system - Logs successfully archived in logs\archives\logs_2025-01-16.zip
 2025-01-16 22:52:54,943 - DEBUG - system - The buffer folder was successfully deleted.
 2025-01-16 22:52:54,943 - DEBUG - user - The program is closing...
+=======
+2024-12-26 17:36:24,115 - DEBUG - builder - 
+==== Launch the application: 2024-12-26 17:36:24 ====
+
+2024-12-26 17:36:24,115 - DEBUG - system - 
+==== Launch the application: 2024-12-26 17:36:24 ====
+
+2024-12-26 17:36:24,115 - DEBUG - system - The folder with the rebuilt plugins does not exist.
+2024-12-26 17:36:24,115 - DEBUG - user - The application is running...
+2024-12-26 17:36:32,908 - DEBUG - user - Plugins folder selected: D:/Other/Downloads/Telegram Desktop/OperatingSystemSimulator
+2024-12-26 17:36:33,886 - DEBUG - system - The plugins folder has been copied to the clipboard: buffer\OperatingSystemSimulator
+2024-12-26 17:36:33,887 - DEBUG - system - Creating 1 load blocks for plugins
+2024-12-26 17:36:33,889 - DEBUG - system - Read plugin data from: buffer\OperatingSystemSimulator
+2024-12-26 17:36:33,901 - DEBUG - system - Plugin found: Operating System Simulator
+2024-12-26 17:36:33,929 - DEBUG - system - All plugins are loaded. 
+2024-12-26 17:36:36,205 - DEBUG - user - Builders path set: C:\Program Files\Epic Games\UE_5.5\Engine\Build\BatchFiles
+2024-12-26 17:36:37,350 - DEBUG - user - Builders path set: C:\Program Files\Epic Games\UE_5.5\Engine\Build\BatchFiles
+2024-12-26 17:36:39,163 - DEBUG - user - Builders path set: C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles
+2024-12-26 17:36:40,099 - DEBUG - user - Building the plugin: Operating System Simulator
+2024-12-26 17:36:40,100 - DEBUG - builder - Execute the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -plugin="C:\Users\SERG\Desktop\Unreal Engine Converter\buffer\OperatingSystemSimulator\OperatingSystemSimulator.uplugin" -package="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator"
+2024-12-26 17:36:52,638 - DEBUG - user - Building plugin for host platforms: Win64
+2024-12-26 17:36:52,639 - ERROR - builder - Error while building plugin Operating System Simulator.
+2024-12-26 17:36:52,640 - DEBUG - user - Collected 1/1 plugins.
+2024-12-26 17:36:52,642 - INFO - system - All plugins are collected. 
+2024-12-26 17:43:05,439 - DEBUG - builder - 
+==== Launch the application: 2024-12-26 17:43:05 ====
+
+2024-12-26 17:43:05,440 - DEBUG - system - 
+==== Launch the application: 2024-12-26 17:43:05 ====
+
+2024-12-26 17:43:05,653 - INFO - system - RebuiltPlugins folder deleted: C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins
+2024-12-26 17:43:05,653 - DEBUG - user - The application is running...
+2024-12-26 17:43:12,345 - DEBUG - user - Plugins folder selected: D:/Other/Downloads/Telegram Desktop/OperatingSystemSimulator
+2024-12-26 17:43:12,506 - DEBUG - system - Old copy buffer\OperatingSystemSimulator deleted
+2024-12-26 17:43:13,688 - DEBUG - system - The plugins folder has been copied to the clipboard: buffer\OperatingSystemSimulator
+2024-12-26 17:43:13,688 - DEBUG - system - Creating 1 load blocks for plugins
+2024-12-26 17:43:13,689 - DEBUG - system - Read plugin data from: buffer\OperatingSystemSimulator
+2024-12-26 17:43:13,699 - DEBUG - system - Plugin found: Operating System Simulator
+2024-12-26 17:43:13,723 - DEBUG - system - All plugins are loaded. 
+2024-12-26 17:43:15,100 - DEBUG - user - Builders path set: C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles
+2024-12-26 17:43:15,593 - DEBUG - user - Building the plugin: Operating System Simulator
+2024-12-26 17:43:15,594 - DEBUG - builder - Execute the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -plugin="C:\Users\SERG\Desktop\Unreal Engine Converter\buffer\OperatingSystemSimulator\OperatingSystemSimulator.uplugin" -package="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator"
+2024-12-26 17:43:58,678 - DEBUG - user - Building plugin for host platforms: Win64
+2024-12-26 17:43:58,679 - DEBUG - user - Collected 1/1 plugins.
+2024-12-26 17:43:58,681 - INFO - system - All plugins are collected. 
+2024-12-26 17:44:52,520 - DEBUG - builder - 
+==== Launch the application: 2024-12-26 17:44:52 ====
+
+2024-12-26 17:44:52,521 - DEBUG - system - 
+==== Launch the application: 2024-12-26 17:44:52 ====
+
+2024-12-26 17:44:52,716 - INFO - system - RebuiltPlugins folder deleted: C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins
+2024-12-26 17:44:52,716 - DEBUG - user - The application is running...
+2024-12-26 17:44:56,657 - DEBUG - user - Plugins folder selected: D:/Other/Downloads/Telegram Desktop/OperatingSystemSimulator
+2024-12-26 17:44:56,836 - DEBUG - system - Old copy buffer\OperatingSystemSimulator deleted
+2024-12-26 17:44:58,032 - DEBUG - system - The plugins folder has been copied to the clipboard: buffer\OperatingSystemSimulator
+2024-12-26 17:44:58,033 - DEBUG - system - Creating 1 load blocks for plugins
+2024-12-26 17:44:58,034 - DEBUG - system - Read plugin data from: buffer\OperatingSystemSimulator
+2024-12-26 17:44:58,047 - DEBUG - system - Plugin found: Operating System Simulator
+2024-12-26 17:44:58,080 - DEBUG - system - All plugins are loaded. 
+2024-12-26 17:44:59,555 - DEBUG - user - Builders path set: C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles
+2024-12-26 17:45:00,155 - DEBUG - user - Building the plugin: Operating System Simulator
+2024-12-26 17:45:00,157 - DEBUG - builder - Execute the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -plugin="C:\Users\SERG\Desktop\Unreal Engine Converter\buffer\OperatingSystemSimulator\OperatingSystemSimulator.uplugin" -package="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator"
+2024-12-26 17:45:12,802 - DEBUG - user - Building plugin for host platforms: Win64
+2024-12-26 17:45:12,803 - DEBUG - user - Collected 1/1 plugins.
+2024-12-26 17:45:12,805 - INFO - system - All plugins are collected. 
+2024-12-26 17:46:17,505 - DEBUG - builder - 
+==== Launch the application: 2024-12-26 17:46:17 ====
+
+2024-12-26 17:46:17,505 - DEBUG - system - 
+==== Launch the application: 2024-12-26 17:46:17 ====
+
+2024-12-26 17:46:17,690 - INFO - system - RebuiltPlugins folder deleted: C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins
+2024-12-26 17:46:17,691 - DEBUG - user - The application is running...
+2024-12-26 17:46:22,916 - DEBUG - user - Выбрана папка плагинов: D:/Other/Downloads/Telegram Desktop/OperatingSystemSimulator
+2024-12-26 17:46:23,068 - DEBUG - system - Старая копия buffer\OperatingSystemSimulator удалена
+2024-12-26 17:46:23,966 - DEBUG - system - Папка плагинов скопирована в буфер: buffer\OperatingSystemSimulator
+2024-12-26 17:46:23,966 - DEBUG - system - Создание 1 загрузочных блоков для плагинов
+2024-12-26 17:46:23,971 - DEBUG - system - Чтение данных плагина из: buffer\OperatingSystemSimulator
+2024-12-26 17:46:23,981 - DEBUG - system - Найден плагин: Operating System Simulator
+2024-12-26 17:46:24,004 - DEBUG - system - Все плагины загружены. Обновление списка плагинов.
+2024-12-26 17:46:25,228 - DEBUG - user - Путь билдеров установлен: C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles
+2024-12-26 17:46:25,597 - DEBUG - user - Собираем плагин: Operating System Simulator
+2024-12-26 17:46:25,599 - DEBUG - builder - Выполняем команду: "C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -plugin="C:\Users\SERG\Desktop\Unreal Engine Converter\buffer\OperatingSystemSimulator\OperatingSystemSimulator.uplugin" -package="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator"
+2024-12-26 17:46:27,053 - DEBUG - user - Building plugin for host platforms: Win64
+2024-12-26 17:46:37,571 - ERROR - builder - Ошибка при сборке плагина Operating System Simulator.
+2024-12-26 17:46:37,571 - DEBUG - user - Собрано 1/1 плагинов.
+2024-12-26 17:46:37,574 - INFO - system - Все плагины собраны. Кнопка для пересборки разблокирована.
+2024-12-26 17:49:40,599 - DEBUG - builder - 
+==== Launch the application: 2024-12-26 17:49:40 ====
+
+2024-12-26 17:49:40,600 - DEBUG - system - 
+==== Launch the application: 2024-12-26 17:49:40 ====
+
+2024-12-26 17:49:40,771 - INFO - system - RebuiltPlugins folder deleted: C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins
+2024-12-26 17:49:40,771 - DEBUG - user - The application is running...
+2024-12-26 17:49:45,521 - WARNING - user - The builders path is not established.
+2024-12-26 17:49:47,474 - DEBUG - user - Builders path set: C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles
+2024-12-26 17:49:53,063 - DEBUG - user - Выбрана папка плагинов: D:/Other/Downloads/Telegram Desktop/OperatingSystemSimulator
+2024-12-26 17:49:53,226 - DEBUG - system - Старая копия buffer\OperatingSystemSimulator удалена
+2024-12-26 17:49:54,265 - DEBUG - system - Папка плагинов скопирована в буфер: buffer\OperatingSystemSimulator
+2024-12-26 17:49:54,265 - DEBUG - system - Создание 1 загрузочных блоков для плагинов
+2024-12-26 17:49:54,267 - DEBUG - system - Чтение данных плагина из: buffer\OperatingSystemSimulator
+2024-12-26 17:49:54,278 - DEBUG - system - Найден плагин: Operating System Simulator
+2024-12-26 17:49:54,305 - DEBUG - system - Все плагины загружены. Обновление списка плагинов.
+2024-12-26 17:49:54,561 - DEBUG - user - Собираем плагин: Operating System Simulator
+2024-12-26 17:49:54,563 - DEBUG - builder - Выполняем команду: "C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -plugin="C:\Users\SERG\Desktop\Unreal Engine Converter\buffer\OperatingSystemSimulator\OperatingSystemSimulator.uplugin" -package="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator"
+2024-12-26 17:50:07,163 - DEBUG - user - Running AutomationTool...
+2024-12-26 17:50:07,164 - DEBUG - user - Using bundled DotNet SDK version: 6.0.302
+2024-12-26 17:50:07,165 - DEBUG - user - Starting AutomationTool...
+2024-12-26 17:50:07,167 - DEBUG - user - Parsing command line: BuildPlugin -plugin="C:\Users\SERG\Desktop\Unreal Engine Converter\buffer\OperatingSystemSimulator\OperatingSystemSimulator.uplugin" -package="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator"
+2024-12-26 17:50:07,170 - DEBUG - user - Initializing script modules...
+2024-12-26 17:50:07,172 - DEBUG - user - Total script module initialization time: 0.29 s.
+2024-12-26 17:50:07,173 - DEBUG - user - Using C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+2024-12-26 17:50:07,175 - DEBUG - user - Executing commands...
+2024-12-26 17:50:07,175 - DEBUG - user - Copying 737 file(s) using max 64 thread(s)
+2024-12-26 17:50:07,176 - DEBUG - user - Reading plugin from C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\Plugins\OperatingSystemSimulator\OperatingSystemSimulator.uplugin...
+2024-12-26 17:50:07,178 - DEBUG - user - Building plugin for host platforms: Win64
+2024-12-26 17:50:07,180 - DEBUG - user - Running: C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\ThirdParty\DotNet\6.0.302\windows\dotnet.exe "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealEditor Win64 Development -Project="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\HostProject.uproject" -plugin="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\Plugins\OperatingSystemSimulator\OperatingSystemSimulator.uplugin" -noubtmakefiles -manifest="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml" -nohotreload -log="C:\Users\SERG\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.4\UBA-UnrealEditor-Win64-Development.txt"
+2024-12-26 17:50:07,186 - DEBUG - user - Log file: C:\Users\SERG\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.4\UBA-UnrealEditor-Win64-Development.txt
+2024-12-26 17:50:07,192 - DEBUG - user - Operating System Simulator compiling for Unreal Engine 5.4 (504). Configuration: Development.
+2024-12-26 17:50:07,194 - DEBUG - user - Operating System Simulator compiling for Unreal Engine 5.4 (504). Configuration: Development.
+2024-12-26 17:50:07,196 - DEBUG - user - Parsing headers for UnrealEditor
+2024-12-26 17:50:07,197 - DEBUG - user - Running Internal UnrealHeaderTool "C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\HostProject.uproject" "C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\Intermediate\Build\Win64\UnrealEditor\Development\UnrealEditor.uhtmanifest" -WarningsAsErrors -installed
+2024-12-26 17:50:07,200 - DEBUG - user - Total of 148 written
+2024-12-26 17:50:07,203 - DEBUG - user - Reflection code generated for UnrealEditor in 2.5032812 seconds
+2024-12-26 17:50:07,205 - DEBUG - user - WARNING: Absolute path 'C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\Plugins\OperatingSystemSimulator\Intermediate\Build\Win64\x64\UnrealEditor\Development\OperatingSystemSimulator\OperatingSystemDirectoriesCollection.cpp.dep.json' has length '261' which is greater than MAX_PATH (260) and may cause unexpected errors with the MSVC toolchain.
+2024-12-26 17:50:07,207 - DEBUG - user - WARNING: Absolute path 'C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\Plugins\OperatingSystemSimulator\Intermediate\Build\Win64\x64\UnrealEditor\Development\GlobalMessengerEditor\GameplayDebuggerCategory_GlobalMessenger.cpp.dep.json' has length '262' which is greater than MAX_PATH (260) and may cause unexpected errors with the MSVC toolchain.
+2024-12-26 17:50:07,209 - DEBUG - user - Writing manifest to C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml
+2024-12-26 17:50:07,211 - DEBUG - user - Total execution time: 10.49 seconds
+2024-12-26 17:50:07,213 - DEBUG - user - The following output paths are longer than 260 characters. Please move the engine to a directory with a shorter path.
+2024-12-26 17:50:07,214 - DEBUG - user - [260 characters] C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\Plugins\OperatingSystemSimulator\Intermediate\Build\Win64\x64\UnrealEditor\Development\OperatingSystemSimulator\OperatingSystemDirectoriesCollection.cpp.obj.rsp
+2024-12-26 17:50:07,216 - DEBUG - user - [261 characters] C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\Plugins\OperatingSystemSimulator\Intermediate\Build\Win64\x64\UnrealEditor\Development\OperatingSystemSimulator\OperatingSystemDirectoriesCollection.cpp.dep.json
+2024-12-26 17:50:07,218 - DEBUG - user - [261 characters] C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\Plugins\OperatingSystemSimulator\Intermediate\Build\Win64\x64\UnrealEditor\Development\GlobalMessengerEditor\GameplayDebuggerCategory_GlobalMessenger.cpp.obj.rsp
+2024-12-26 17:50:07,221 - DEBUG - user - [262 characters] C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator\HostProject\Plugins\OperatingSystemSimulator\Intermediate\Build\Win64\x64\UnrealEditor\Development\GlobalMessengerEditor\GameplayDebuggerCategory_GlobalMessenger.cpp.dep.json
+2024-12-26 17:50:07,223 - DEBUG - user - Took 10,67s to run dotnet.exe, ExitCode=6
+2024-12-26 17:50:07,224 - DEBUG - user - UnrealBuildTool failed. See log for more details. (C:\Users\SERG\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.4\UBA-UnrealEditor-Win64-Development.txt)
+2024-12-26 17:50:07,225 - DEBUG - user - AutomationTool executed for 0h 0m 12s
+2024-12-26 17:50:07,226 - DEBUG - user - AutomationTool exiting with ExitCode=6 (6)
+2024-12-26 17:50:07,227 - DEBUG - user - BUILD FAILED
+2024-12-26 17:50:07,229 - ERROR - builder - Ошибка при сборке плагина Operating System Simulator.
+2024-12-26 17:50:07,229 - DEBUG - user - Собрано 1/1 плагинов.
+2024-12-26 17:50:07,231 - INFO - system - Все плагины собраны. Кнопка для пересборки разблокирована.
+>>>>>>> c5408bdef30ba04c8639c977a4b29211e8006666

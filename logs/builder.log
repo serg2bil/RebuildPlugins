@@ -1,0 +1,23 @@
+2024-12-26 17:36:24,115 - DEBUG - builder - 
+==== Launch the application: 2024-12-26 17:36:24 ====
+
+2024-12-26 17:36:40,100 - DEBUG - builder - Execute the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -plugin="C:\Users\SERG\Desktop\Unreal Engine Converter\buffer\OperatingSystemSimulator\OperatingSystemSimulator.uplugin" -package="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator"
+2024-12-26 17:36:52,639 - ERROR - builder - Error while building plugin Operating System Simulator.
+2024-12-26 17:43:05,439 - DEBUG - builder - 
+==== Launch the application: 2024-12-26 17:43:05 ====
+
+2024-12-26 17:43:15,594 - DEBUG - builder - Execute the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -plugin="C:\Users\SERG\Desktop\Unreal Engine Converter\buffer\OperatingSystemSimulator\OperatingSystemSimulator.uplugin" -package="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator"
+2024-12-26 17:44:52,520 - DEBUG - builder - 
+==== Launch the application: 2024-12-26 17:44:52 ====
+
+2024-12-26 17:45:00,157 - DEBUG - builder - Execute the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -plugin="C:\Users\SERG\Desktop\Unreal Engine Converter\buffer\OperatingSystemSimulator\OperatingSystemSimulator.uplugin" -package="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator"
+2024-12-26 17:46:17,505 - DEBUG - builder - 
+==== Launch the application: 2024-12-26 17:46:17 ====
+
+2024-12-26 17:46:25,599 - DEBUG - builder - Выполняем команду: "C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -plugin="C:\Users\SERG\Desktop\Unreal Engine Converter\buffer\OperatingSystemSimulator\OperatingSystemSimulator.uplugin" -package="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator"
+2024-12-26 17:46:37,571 - ERROR - builder - Ошибка при сборке плагина Operating System Simulator.
+2024-12-26 17:49:40,599 - DEBUG - builder - 
+==== Launch the application: 2024-12-26 17:49:40 ====
+
+2024-12-26 17:49:54,563 - DEBUG - builder - Выполняем команду: "C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -plugin="C:\Users\SERG\Desktop\Unreal Engine Converter\buffer\OperatingSystemSimulator\OperatingSystemSimulator.uplugin" -package="C:\Users\SERG\Desktop\Unreal Engine Converter\RebuiltPlugins\Operating System Simulator"
+2024-12-26 17:50:07,229 - ERROR - builder - Ошибка при сборке плагина Operating System Simulator.
