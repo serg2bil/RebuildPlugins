@@ -1,3 +1,7 @@
 logs/
+BuildLogs/
+Work/
+RebuiltPlugins/
 build/
 dist/
+__pycache__/

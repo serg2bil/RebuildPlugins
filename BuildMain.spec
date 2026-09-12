@@ -7,8 +7,7 @@ a = Analysis(
     binaries=[],
     datas=[
     ('locales/*.json', 'locales'),
-    ('public/*.png', 'public'),
-    ('public/*.gif', 'public')
+    ('public/*.png', 'public')
     ],
     hiddenimports=[],
     hookspath=[],
